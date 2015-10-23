@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Felicity '16</title>
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="../reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="../reveal.js/css/theme/moon.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="../reveal.js/lib/css/zenburn.css">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Felicity '16 Web</h1>
+					<h2>How to Contribute</h2>
+				</section>
+				<section>
+					<h2>Introduction to certain tools</h2>
+				</section>
+				<section>
+					<h2>GitHub</h2>
+					<p>You've probably head of GitHub.<p>
+					<p>Felicity's code is hosted in repositories at<br><a target="_blank" href="https://github.com/felicity-iiith">github.com/felicity-iiith</a></p>
+				</section>
+				<section>
+					<h2>/organise</h2>
+					<p>We created <a target="_blank" href="https://felicity.iiit.ac.in/organise">felicity/organise</a> to use as an internal documentation tool.
+				</section>
+				<section>
+					<h2>Phabricator</h2>
+					<p>Phabricator is a suite of open source tools for peer code review, task management, and project communication.</p>
+					<p>We have our very own instance running at <a target="_blank" href="http://10.4.3.65/">10.4.3.65</a></p>
+					<p><small>You'll need to be inside the campus network to access it. If you're not on campus, use the <a target="_blank" href="http://vpn.iiit.ac.in/" rel="nofollow">VPN</a>.</small></p>
+				</section>
+				<section>
+					<h2>Getting started</h2>
+				</section>
+				<section>
+					<h2>Get an account on github</h2>
+					<p>If you don't have one already, get an account on GitHub at<br><a href="https://github.com/join">github.com/join</a></p>
+				</section>
+				<section>
+					<h2>Get an account on Phabricator</h2>
+					<p>Navigate to <a href="http://10.4.3.65/">10.4.3.65</a> and register using your IIIT LDAP email address (eg. "someone@students.iiit.ac.in") and password.</p>
+					<p>Pick a nice username! LDAP usernames are generally boring.</p>
+				</section>
+				<section>
+					<h2>Look for Good-First-Tasks</h2>
+					<p>We have marked some tasks on phab as "Good first tasks".</p>
+					<p>You can find them by <a href="http://10.4.3.65/maniphest/query/X244huwyaQNJ/#R">searching in Maniphest</a>.</p>
+				</section>
+				<section>
+					<h2>Claim a task</h2>
+					<p>Once you find a task you like (and someone else hasn't claimed it), claim it!</p>
+				</section>
+				<section>
+					<h2>Do work</h2>
+					<p>Obviously.</p>
+				</section>
+				<section>
+					<h2>Submit work</h2>
+					<p>This is a rather long section, and there's a guide for this at
+						<a href="https://felicity.iiit.ac.in/organise/docs/guides/submitting-code/">
+							/organise/docs/guides/submitting-code/
+						</a>
+				</section>
+				<section>
+					<h2>Best of luck!</h2>
+					<p>Let's make this Felicity (more) awesome!</p>
+				</section>
+			</div>
+		</div>
+
+		<script src="../reveal.js/lib/js/head.min.js"></script>
+		<script src="../reveal.js/js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				slideNumber: true,
+
+				transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: '../reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../reveal.js/plugin/zoom-js/zoom.js', async: true },
+					{ src: '../reveal.js/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
